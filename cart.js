@@ -47,3 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateCart();
 });
+
+//responsive
+const mobileMenu = document.getElementById("mobile-menu");
+const navList = document.querySelector("ul");
+
+mobileMenu.addEventListener("click", () => {
+    navList.classList.toggle("active");
+});  
